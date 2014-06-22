@@ -7,15 +7,16 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 ## Summarized Description about functions used to get tidy data
 1.	Merges the training and the test sets to create one data set. 
-    - Here, it is important to name our variables. the file "features" is used to fulfil this step. On the other hand, cbind function is necessary to get all the variables both for train and test dataset. Finally, rbind function is essential to join both datasets.
+    - Read tables of the following txt files: X_train, y_train, subject_train, X_test, y_test, subject_test, activity_labels and features.
+    - Here, it is important to name our variables on X_train and X_test. the file "features" is used to fulfil this step. On the other hand, cbind function is necessary to get all the variables (y_ and subject_ files) both for train and test dataset. Finally, rbind function is essential to join both datasets.
 2.	Extracts only the measurements on the mean and standard deviation for each measurement. 
-    The grep function was used to fulfil with this step.
+    - The grep function was used to fulfil with this step.
 3.	Uses descriptive activity names to name the activities in the data set. 
-    The file "activity labels" shows the six activities performed by each person and it is used to merge with our data which has train and test together.
+    - The file "activity labels" shows the six activities performed by each person and it is used to merge with our data which has train and test together.
 4.	Appropriately labels the data set with descriptive variable names. 
-    For loops will help us to clean up the variable names from step 2.
+    - For loops will help us to clean up the variable names from step 2.
 5.	Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
-    The function aggregate is ideal to obtain this outcome. Then, write function is used to save our data as "txt" file.
+    - The function aggregate is ideal to obtain this outcome. Then, write function is used to save our data as "txt" file. This final and tidy data should have 81 variables. The first two are the Id of the subject and the performed activity. The remaining variables are related to average measurements from sensor signals (accelerometer and gyroscope).
 
 ## Variables from tidy data
 - Subject: Participant Id
