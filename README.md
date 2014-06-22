@@ -1,7 +1,9 @@
 Getting and Cleaning Data Project
 ===========================
 
-The aim of this project is to demonstrate our ability to collect, work with, and clean a data set [1]. The goal is to obtain tidy data that can be used for future analysis.
+The aim of this project is to demonstrate our ability to collect, work with, and clean a data set [1]. The goal is to obtain tidy data that can be used for future analysis. A full description is available at the site where the data was obtained:
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 ## The Script
 The script works to get a tidy data, this script has been called "run_analysis.R". This script is a combination of distinct topics which were learnt during the course such as editing text variables, regular expressions, summarizing and the like. In order to obtain our tidy data is important to know that your file which was download must be saved in your default working directory (When you type getwd).
