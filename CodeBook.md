@@ -7,7 +7,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 ## Summarized Description about functions used to get tidy data
 1.	Merges the training and the test sets to create one data set. 
-    Here, it is important to name our variables. the file "features" is used to fulfil this step. On the other hand, cbind function is necessary to get all the variables both for train and test dataset. Finally, rbind function is essential to join both datasets.
+    - Here, it is important to name our variables. the file "features" is used to fulfil this step. On the other hand, cbind function is necessary to get all the variables both for train and test dataset. Finally, rbind function is essential to join both datasets.
 2.	Extracts only the measurements on the mean and standard deviation for each measurement. 
     The grep function was used to fulfil with this step.
 3.	Uses descriptive activity names to name the activities in the data set. 
@@ -18,84 +18,84 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
     The function aggregate is ideal to obtain this outcome. Then, write function is used to save our data as "txt" file.
 
 ## Variables from tidy data
-Subject: Participant Id
-PerformedActivity: Activity name performed by participants (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
-tBodyAccMeanX
-tBodyAccMeanY
-tBodyAccMeanZ
-tGravityAccMeanX
-tGravityAccMeanY
-tGravityAccMeanZ
-tBodyAccJerkMeanX
-tBodyAccJerkMeanY
-tBodyAccJerkMeanZ
-tBodyGyroMeanX
-tBodyGyroMeanY
-tBodyGyroMeanZ
-tBodyGyroJerkMeanX
-tBodyGyroJerkMeanY
-tBodyGyroJerkMeanZ
-tBodyAccMagMean
-tGravityAccMagMean
-tBodyAccJerkMagMean
-tBodyGyroMagMean
-tBodyGyroJerkMagMean
-fBodyAccMeanX
-fBodyAccMeanY
-fBodyAccMeanZ
-fBodyAccMeanFreqX
-fBodyAccMeanFreqY
-fBodyAccMeanFreqZ
-fBodyAccJerkMeanX
-fBodyAccJerkMeanY
-fBodyAccJerkMeanZ
-fBodyAccJerkMeanFreqX
-fBodyAccJerkMeanFreqY
-fBodyAccJerkMeanFreqZ
-fBodyGyroMeanX
-fBodyGyroMeanY
-fBodyGyroMeanZ
-fBodyGyroMeanFreqX
-fBodyGyroMeanFreqY
-fBodyGyroMeanFreqZ
-fBodyAccMagMean
-fBodyAccMagMeanFreq
-fBodyBodyAccJerkMagMean
-fBodyBodyAccJerkMagMeanFreq
-fBodyBodyGyroMagMean
-fBodyBodyGyroMagMeanFreq
-fBodyBodyGyroJerkMagMean
-fBodyBodyGyroJerkMagMeanFreq
-tBodyAccStdDevX
-tBodyAccStdDevY
-tBodyAccStdDevZ
-tGravityAccStdDevX
-tGravityAccStdDevY
-tGravityAccStdDevZ
-tBodyAccJerkStdDevX
-tBodyAccJerkStdDevY
-tBodyAccJerkStdDevZ
-tBodyGyroStdDevX
-tBodyGyroStdDevY
-tBodyGyroStdDevZ
-tBodyGyroJerkStdDevX
-tBodyGyroJerkStdDevY
-tBodyGyroJerkStdDevZ
-tBodyAccMagStdDev
-tGravityAccMagStdDev
-tBodyAccJerkMagStdDev
-tBodyGyroMagStdDev
-tBodyGyroJerkMagStdDev
-fBodyAccStdDevX
-fBodyAccStdDevY
-fBodyAccStdDevZ
-fBodyAccJerkStdDevX
-fBodyAccJerkStdDevY
-fBodyAccJerkStdDevZ
-fBodyGyroStdDevX
-fBodyGyroStdDevY
-fBodyGyroStdDevZ
-fBodyAccMagStdDev
-fBodyBodyAccJerkMagStdDev
-fBodyBodyGyroMagStdDev
-fBodyBodyGyroJerkMagStdDev
+- Subject: Participant Id
+- PerformedActivity: Activity name performed by participants (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+- tBodyAccMeanX
+- tBodyAccMeanY
+- tBodyAccMeanZ
+- tGravityAccMeanX
+- tGravityAccMeanY
+- tGravityAccMeanZ
+- tBodyAccJerkMeanX
+- tBodyAccJerkMeanY
+- tBodyAccJerkMeanZ
+- tBodyGyroMeanX
+- tBodyGyroMeanY
+- tBodyGyroMeanZ
+- tBodyGyroJerkMeanX
+- tBodyGyroJerkMeanY
+- tBodyGyroJerkMeanZ
+- tBodyAccMagMean
+- tGravityAccMagMean
+- tBodyAccJerkMagMean
+- tBodyGyroMagMean
+- tBodyGyroJerkMagMean
+- fBodyAccMeanX
+- fBodyAccMeanY
+- fBodyAccMeanZ
+- fBodyAccMeanFreqX
+- fBodyAccMeanFreqY
+- fBodyAccMeanFreqZ
+- fBodyAccJerkMeanX
+- fBodyAccJerkMeanY
+- fBodyAccJerkMeanZ
+- fBodyAccJerkMeanFreqX
+- fBodyAccJerkMeanFreqY
+- fBodyAccJerkMeanFreqZ
+- fBodyGyroMeanX
+- fBodyGyroMeanY
+- fBodyGyroMeanZ
+- fBodyGyroMeanFreqX
+- fBodyGyroMeanFreqY
+- fBodyGyroMeanFreqZ
+- fBodyAccMagMean
+- fBodyAccMagMeanFreq
+- fBodyBodyAccJerkMagMean
+- fBodyBodyAccJerkMagMeanFreq
+- fBodyBodyGyroMagMean
+- fBodyBodyGyroMagMeanFreq
+- fBodyBodyGyroJerkMagMean
+- fBodyBodyGyroJerkMagMeanFreq
+- tBodyAccStdDevX
+- tBodyAccStdDevY
+- tBodyAccStdDevZ
+- tGravityAccStdDevX
+- tGravityAccStdDevY
+- tGravityAccStdDevZ
+- tBodyAccJerkStdDevX
+- tBodyAccJerkStdDevY
+- tBodyAccJerkStdDevZ
+- tBodyGyroStdDevX
+- tBodyGyroStdDevY
+- tBodyGyroStdDevZ
+- tBodyGyroJerkStdDevX
+- tBodyGyroJerkStdDevY
+- tBodyGyroJerkStdDevZ
+- tBodyAccMagStdDev
+- tGravityAccMagStdDev
+- tBodyAccJerkMagStdDev
+- tBodyGyroMagStdDev
+- tBodyGyroJerkMagStdDev
+- fBodyAccStdDevX
+- fBodyAccStdDevY
+- fBodyAccStdDevZ
+- fBodyAccJerkStdDevX
+- fBodyAccJerkStdDevY
+- fBodyAccJerkStdDevZ
+- fBodyGyroStdDevX
+- fBodyGyroStdDevY
+- fBodyGyroStdDevZ
+- fBodyAccMagStdDev
+- fBodyBodyAccJerkMagStdDev
+- fBodyBodyGyroMagStdDev
+- fBodyBodyGyroJerkMagStdDev
