@@ -16,7 +16,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 4.	Appropriately labels the data set with descriptive variable names. 
     - For loops will help us to clean up the variable names from step 2.
 5.	Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
-    - The function aggregate is ideal to obtain this outcome. Then, write function is used to save our data as "txt" file. This final and tidy data should have 81 variables. The first two are the Id of the subject and the performed activity. The remaining variables are related to average measurements from sensor signals (accelerometer and gyroscope).
+    - The function aggregate is ideal to obtain this outcome. Then, write function is used to save our data as "txt" file. This final and tidy data should have 180 records and 81 variables. The first two variables are the Id of the subject and the performed activity. The remaining variables are related to average measurements from sensor signals (accelerometer and gyroscope).
 
 ## Variables from tidy data
 - Subject: Participant Id
